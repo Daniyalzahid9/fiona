@@ -22,7 +22,7 @@ Domain workbench screens live in `apps/web/app/(app)/<route>/` and are owned per
 
 ## Contracts
 - Cross folders only through `packages/contracts`, never through another box's internals. CI enforces it (`scripts/check-boundaries.py`, ESLint).
-- The core is frozen at G1 (Wed 14 Oct). Message fiona-b7 **before** any contract change. Additive changes need fiona-b0 and fiona-b7. Breaking changes need Daniyal, Daniyal, a `docs/decision-log.md` entry and fiona-b7.
+- The core is frozen at G1 (Wed 14 Oct). Message fiona-b7 **before** any contract change. Additive changes need fiona-b0 and fiona-b7. Breaking changes need Daniyal, a `docs/decision-log.md` entry and fiona-b7.
 
 ## Engine modules (services/engine)
 - One FastAPI app, Python 3.12, uv. Import as `engine.<module>` (for example `engine.guardian_checks`). Each module folder has an `__init__.py`.

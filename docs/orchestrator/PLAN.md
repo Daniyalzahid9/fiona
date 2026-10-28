@@ -25,7 +25,7 @@ The official rules (PBCSF Appendix 2, International Track) say: **"Registration 
 | 02 | Presentation deck | For a final presentation of 10 minutes or less | Abdullah |
 | 03 | Demo video | Optional, 5 minutes or less (we submit one, because item 06 needs it) | Abdullah (script), Daniyal (recording) |
 | 04 | Source code | GitHub repository link, README, deployment instructions, test cases | Daniyal |
-| 05 | Security self-assessment report | Permission-tier implementation and a known-risk list | Abdullah, with Daniyal and Daniyal |
+| 05 | Security self-assessment report | Permission-tier implementation and a known-risk list | Abdullah, with Daniyal |
 | 06 | Execution evidence | Simulated-account or sandbox operation logs, plus the demo video | Daniyal (log export), Abdullah (package) |
 
 ## 1. Scope: everything, in order of what is scored

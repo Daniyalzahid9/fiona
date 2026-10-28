@@ -288,7 +288,7 @@ The vision document describes the product we want; this build is a slice of it. 
 | Phone app | Installable web app or Expo | Installable web app: one codebase, and passkeys work in current mobile browsers | Daniyal | Wed 14 Oct |
 | Wallet | Simulated, or a bank's sandbox API | Simulated, and labelled as simulated in the demo | Daniyal | Wed 14 Oct |
 | Where Chronos-2 runs | In the engine container on CPU, or skip it for a classical model | Try CPU in the engine; fall back to the classical models in StatsForecast if memory or speed is a problem | Yahya | Fri 16 Oct |
-| Bill inputs for extraction | JSON only, or also generated PDFs and photos | The generator renders about twenty bills as PDFs and photos so extraction is demonstrated for real | Daniyal, Daniyal | Sat 17 Oct |
+| Bill inputs for extraction | JSON only, or also generated PDFs and photos | The generator renders about twenty bills as PDFs and photos so extraction is demonstrated for real | Daniyal | Sat 17 Oct |
 | Real business data | Synthetic only, or three months of anonymised real data | Ask one friendly shop; use it in one moment only | Abdullah | Wed 21 Oct |
 | Interface language | English only, or also Urdu and Chinese | English interface; the command bar accepts Urdu and Chinese questions, since Claude reads both | Daniyal | Thu 22 Oct |
 | Guardian reviewer cost | Opus on every proposal, or only above a value | Opus on every proposal in the demo; threshold set by an environment variable | Daniyal | Fri 23 Oct |

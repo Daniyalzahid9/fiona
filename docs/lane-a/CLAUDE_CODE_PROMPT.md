@@ -1496,7 +1496,7 @@ When a trigger fires, raise checkpoint C6: state which gate slipped, which item 
 |---|---|---|
 | Phone app | **Installable web app** (PWA), no Expo — one codebase, and passkeys work in current mobile browsers | Daniyal · Wed 14 Oct |
 | Wallet | Simulated and labelled as simulated | Daniyal · Wed 14 Oct |
-| Bill inputs for extraction | Generator renders ~20 bills as PDFs and photos so extraction is demonstrated for real | Daniyal, Daniyal · Sat 17 Oct |
+| Bill inputs for extraction | Generator renders ~20 bills as PDFs and photos so extraction is demonstrated for real | Daniyal · Sat 17 Oct |
 | Interface language | English UI; the command bar accepts Urdu and Chinese questions | Daniyal · Thu 22 Oct |
 | Guardian reviewer cost | Opus on every proposal in the demo; threshold set by `GUARDIAN_ADVERSARIAL_MIN_AMOUNT_MINOR` | Daniyal · Fri 23 Oct |
 | Real business data | Synthetic only unless a friendly shop supplies anonymised data; one moment only | Abdullah · Wed 21 Oct |
