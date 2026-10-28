@@ -83,6 +83,7 @@ export const PLATFORM_ENV = new Set([
   "PYTEST_CURRENT_TEST", "UV_CACHE_DIR",
   // Developer tooling overrides, not app configuration.
   "GITLEAKS_BIN",
+  "FIONA_GEN_TUNE",
 ]);
 
 // NEXT_PUBLIC_* names that contain KEY/SECRET/TOKEN but are public by design.

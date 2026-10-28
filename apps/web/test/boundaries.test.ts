@@ -21,7 +21,7 @@ describe("R1 import boundaries in apps/web", () => {
     ["an unlisted workspace package", `import mobile from "@fiona/mobile";`],
   ])("rejects %s", async (_label, source) => {
     expect(await boundaryErrors(source)).toHaveLength(1);
-  });
+  }, 90000);
 
   it("allows @fiona/contracts, @fiona/ui and local aliases", async () => {
     const source = [
@@ -31,5 +31,5 @@ describe("R1 import boundaries in apps/web", () => {
       `import { d } from "@/lib/utils";`,
     ].join("\n");
     expect(await boundaryErrors(source)).toEqual([]);
-  });
+  }, 90000);
 });

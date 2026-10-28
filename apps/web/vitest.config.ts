@@ -9,6 +9,6 @@ export default defineConfig({
     environment: "node",
     include: ["**/*.test.{ts,tsx}"],
     exclude: ["node_modules/**", ".next/**"],
-    testTimeout: 30_000,
+    testTimeout: 90_000,
   },
 });

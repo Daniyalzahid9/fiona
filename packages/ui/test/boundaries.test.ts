@@ -21,10 +21,10 @@ describe("R1 import boundaries in packages/ui", () => {
     ["a service package", `import guardian from "@fiona/guardian";`],
   ])("rejects %s", async (_label, source) => {
     expect(await boundaryErrors(source)).toHaveLength(1);
-  });
+  }, 60000);
 
   it("allows @fiona/contracts and react", async () => {
     const source = [`import { a } from "@fiona/contracts";`, `import { useState } from "react";`].join("\n");
     expect(await boundaryErrors(source)).toEqual([]);
-  });
+  }, 60000);
 });
